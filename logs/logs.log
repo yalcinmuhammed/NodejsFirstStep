@@ -1,0 +1,1903 @@
+2019-01-19 12:44:12 [info]: 	Mongodb connected 
+2019-01-19 12:45:09 [error]: 	uncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at Server.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\bin\www:29:3)
+    at Object.onceWrapper (events.js:313:30)
+    at emitNone (events.js:111:20)
+    at Server.emit (events.js:208:7)
+    at emitListeningNT (net.js:1387:10)
+    at _combinedTickCallback (internal/process/next_tick.js:136:11)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3 {
+  "error": {},
+  "stack": "ReferenceError: logger is not defined\n    at Server.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www:29:3)\n    at Object.onceWrapper (events.js:313:30)\n    at emitNone (events.js:111:20)\n    at Server.emit (events.js:208:7)\n    at emitListeningNT (net.js:1387:10)\n    at _combinedTickCallback (internal/process/next_tick.js:136:11)\n    at process._tickCallback (internal/process/next_tick.js:181:9)\n    at Function.Module.runMain (module.js:696:11)\n    at startup (bootstrap_node.js:204:16)\n    at bootstrap_node.js:625:3",
+  "exception": true,
+  "date": "Sat Jan 19 2019 15:45:09 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 19564,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 54063104,
+      "heapTotal": 36519936,
+      "heapUsed": 22573704,
+      "external": 18859121
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 677643.840019
+  },
+  "trace": [
+    {
+      "column": 3,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www",
+      "function": null,
+      "line": 29,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "events.js",
+      "function": "Object.onceWrapper",
+      "line": 313,
+      "method": "onceWrapper",
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "events.js",
+      "function": "emitNone",
+      "line": 111,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 7,
+      "file": "events.js",
+      "function": "Server.emit",
+      "line": 208,
+      "method": "emit",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "net.js",
+      "function": "emitListeningNT",
+      "line": 1387,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "internal/process/next_tick.js",
+      "function": "_combinedTickCallback",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 9,
+      "file": "internal/process/next_tick.js",
+      "function": "process._tickCallback",
+      "line": 181,
+      "method": "_tickCallback",
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "module.js",
+      "function": "Module.runMain",
+      "line": 696,
+      "method": "runMain",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "bootstrap_node.js",
+      "function": "startup",
+      "line": 204,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "bootstrap_node.js",
+      "function": null,
+      "line": 625,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 12:45:11 [info]: 	Mongodb connected 
+2019-01-19 12:46:51 [info]: 	Example app listening on port: 3000 
+2019-01-19 12:46:53 [info]: 	Mongodb connected 
+2019-01-19 12:47:31 [info]: 	Example app listening on port: 3000 
+2019-01-19 12:47:32 [info]: 	Mongodb connected 
+2019-01-19 12:52:22 [error]: 	uncaughtException: Unexpected token var
+C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\app.js:7
+var SystemError = require("./errors/system.error");
+^^^
+
+SyntaxError: Unexpected token var
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\bin\www:7:11) {
+  "error": {},
+  "stack": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\app.js:7\nvar SystemError = require(\"./errors/system.error\");\n^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at Module._compile (module.js:617:28)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www:7:11)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 15:52:22 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 14464,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 28528640,
+      "heapTotal": 12926976,
+      "heapUsed": 7716640,
+      "external": 34679
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678076.880659
+  },
+  "trace": [
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "createScript",
+      "line": 80,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "Object.runInThisContext",
+      "line": 139,
+      "method": "runInThisContext",
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 12:52:54 [error]: 	uncaughtException: Unexpected token var
+C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\app.js:7
+var SystemError = require("./errors/system.error");
+^^^
+
+SyntaxError: Unexpected token var
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\bin\www:7:11) {
+  "error": {},
+  "stack": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\app.js:7\nvar SystemError = require(\"./errors/system.error\");\n^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at Module._compile (module.js:617:28)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www:7:11)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 15:52:54 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 19080,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 28442624,
+      "heapTotal": 12926976,
+      "heapUsed": 7678048,
+      "external": 34679
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678109.0460527
+  },
+  "trace": [
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "createScript",
+      "line": 80,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "Object.runInThisContext",
+      "line": 139,
+      "method": "runInThisContext",
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 12:53:04 [error]: 	uncaughtException: Unexpected token var
+C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\app.js:7
+var SystemError = require("./errors/system.error");
+^^^
+
+SyntaxError: Unexpected token var
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\bin\www:7:11) {
+  "error": {},
+  "stack": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\app.js:7\nvar SystemError = require(\"./errors/system.error\");\n^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at Module._compile (module.js:617:28)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www:7:11)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 15:53:04 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 5268,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 28631040,
+      "heapTotal": 12926976,
+      "heapUsed": 7715272,
+      "external": 34679
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678118.426667
+  },
+  "trace": [
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "createScript",
+      "line": 80,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "Object.runInThisContext",
+      "line": 139,
+      "method": "runInThisContext",
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 12:53:44 [error]: 	uncaughtException: Unexpected token var
+C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\app.js:7
+var SystemError = require("./errors/system.error");
+^^^
+
+SyntaxError: Unexpected token var
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\bin\www:7:11) {
+  "error": {},
+  "stack": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\app.js:7\nvar SystemError = require(\"./errors/system.error\");\n^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at Module._compile (module.js:617:28)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www:7:11)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 15:53:44 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 19684,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 28762112,
+      "heapTotal": 12926976,
+      "heapUsed": 7718592,
+      "external": 34679
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678158.9097315
+  },
+  "trace": [
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "createScript",
+      "line": 80,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "Object.runInThisContext",
+      "line": 139,
+      "method": "runInThisContext",
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 12:54:16 [error]: 	uncaughtException: Unexpected token var
+C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\app.js:7
+var SystemError = require("./errors/system.error");
+^^^
+
+SyntaxError: Unexpected token var
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:617:28)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\bin\www:7:11) {
+  "error": {},
+  "stack": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\app.js:7\nvar SystemError = require(\"./errors/system.error\");\n^^^\n\nSyntaxError: Unexpected token var\n    at createScript (vm.js:80:10)\n    at Object.runInThisContext (vm.js:139:10)\n    at Module._compile (module.js:617:28)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www:7:11)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 15:54:15 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 6108,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 28594176,
+      "heapTotal": 12926976,
+      "heapUsed": 7716920,
+      "external": 34679
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678190.1106175
+  },
+  "trace": [
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "createScript",
+      "line": 80,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "vm.js",
+      "function": "Object.runInThisContext",
+      "line": 139,
+      "method": "runInThisContext",
+      "native": false
+    },
+    {
+      "column": 28,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 617,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 11,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 12:54:38 [info]: 	Example app listening on port: 3000 
+2019-01-19 12:54:39 [info]: 	Mongodb connected 
+2019-01-19 12:57:28 [info]: 	Example app listening on port: 3000 
+2019-01-19 12:57:29 [info]: 	Mongodb connected 
+2019-01-19 13:05:35 [error]: 	uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\models\brand.model.js:11:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\controllers\brand.controller.js:1:82)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18) {
+  "error": {},
+  "stack": "ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js:11:18)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js:1:82)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 16:05:35 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 12816,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 55230464,
+      "heapTotal": 53821440,
+      "heapUsed": 23365664,
+      "external": 19086932
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678869.7678607
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 82,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 13:05:37 [info]: 	Mongodb connected 
+2019-01-19 13:06:19 [error]: 	uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\models\brand.model.js:11:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\controllers\brand.controller.js:1:82)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18) {
+  "error": {},
+  "stack": "ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js:11:18)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js:1:82)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 16:06:19 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 17508,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 55353344,
+      "heapTotal": 53821440,
+      "heapUsed": 23841264,
+      "external": 19130684
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678913.8059948
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 82,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 13:06:21 [info]: 	Mongodb connected 
+2019-01-19 13:06:25 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:06:26 [info]: 	Mongodb connected 
+2019-01-19 13:06:32 [error]: 	uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\models\brand.model.js:11:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\controllers\brand.controller.js:1:82)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18) {
+  "error": {},
+  "stack": "ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js:11:18)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js:1:82)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 16:06:32 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 1092,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 55361536,
+      "heapTotal": 54345728,
+      "heapUsed": 24412808,
+      "external": 19130684
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678926.2216099
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 82,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 13:06:34 [info]: 	Mongodb connected 
+2019-01-19 13:06:41 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:06:43 [info]: 	Mongodb connected 
+2019-01-19 13:06:51 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:06:52 [info]: 	Mongodb connected 
+2019-01-19 13:06:55 [error]: 	uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\models\brand.model.js:11:18)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\controllers\brand.controller.js:1:82)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18) {
+  "error": {},
+  "stack": "ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js:11:18)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js:1:82)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 16:06:55 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 9900,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 55541760,
+      "heapTotal": 53821440,
+      "heapUsed": 24426920,
+      "external": 19118345
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678950.0664162
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 82,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 13:06:57 [info]: 	Mongodb connected 
+2019-01-19 13:07:10 [error]: 	uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\models\brand.model.js:3:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\controllers\brand.controller.js:1:82)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18) {
+  "error": {},
+  "stack": "ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js:3:16)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js:1:82)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 16:07:10 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 21500,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 55435264,
+      "heapTotal": 53821440,
+      "heapUsed": 24432128,
+      "external": 19118345
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678965.0680875
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 82,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 13:07:12 [info]: 	Mongodb connected 
+2019-01-19 13:07:16 [error]: 	uncaughtException: mongoose is not defined
+ReferenceError: mongoose is not defined
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\models\brand.model.js:3:16)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\Muhammed\Desktop\workspace\web\NodejsFirstStep\controllers\brand.controller.js:1:82)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18) {
+  "error": {},
+  "stack": "ReferenceError: mongoose is not defined\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js:3:16)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js:1:82)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Module.require (module.js:597:17)\n    at require (internal/module.js:11:18)",
+  "exception": true,
+  "date": "Sat Jan 19 2019 16:07:16 GMT+0300 (Türkiye Standart Saati)",
+  "process": {
+    "pid": 16500,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v8.12.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\bin\\www"
+    ],
+    "memoryUsage": {
+      "rss": 55349248,
+      "heapTotal": 54345728,
+      "heapUsed": 24427536,
+      "external": 19118345
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 678970.3447961
+  },
+  "trace": [
+    {
+      "column": 16,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\models\\brand.model.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 82,
+      "file": "C:\\Users\\Muhammed\\Desktop\\workspace\\web\\NodejsFirstStep\\controllers\\brand.controller.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 30,
+      "file": "module.js",
+      "function": "Module._compile",
+      "line": 653,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "module.js",
+      "function": "Module._extensions..js",
+      "line": 664,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "module.js",
+      "function": "Module.load",
+      "line": 566,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "module.js",
+      "function": "tryModuleLoad",
+      "line": 506,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 3,
+      "file": "module.js",
+      "function": "Module._load",
+      "line": 498,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 17,
+      "file": "module.js",
+      "function": "Module.require",
+      "line": 597,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "internal/module.js",
+      "function": "require",
+      "line": 11,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2019-01-19 13:07:17 [info]: 	Mongodb connected 
+2019-01-19 13:07:18 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:07:20 [info]: 	Mongodb connected 
+2019-01-19 13:13:12 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:13:14 [info]: 	Mongodb connected 
+2019-01-19 13:21:40 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:21:42 [info]: 	Mongodb connected 
+2019-01-19 13:28:39 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:28:41 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:28:42 [info]: 	Mongodb connected 
+2019-01-19 13:29:08 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:29:09 [info]: 	Mongodb connected 
+2019-01-19 13:32:01 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:32:02 [info]: 	Mongodb connected 
+2019-01-19 13:32:38 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:32:39 [info]: 	Mongodb connected 
+2019-01-19 13:33:16 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:33:17 [info]: 	Mongodb connected 
+2019-01-19 13:33:31 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:33:32 [info]: 	Mongodb connected 
+2019-01-19 13:33:37 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:33:38 [info]: 	Mongodb connected 
+2019-01-19 13:33:50 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:33:52 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:33:53 [info]: 	Mongodb connected 
+2019-01-19 13:34:30 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:34:33 [info]: 	Mongodb connected 
+2019-01-19 13:34:39 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:34:40 [info]: 	Mongodb connected 
+2019-01-19 13:34:53 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:34:54 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:34:56 [info]: 	Mongodb connected 
+2019-01-19 13:35:31 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:35:33 [info]: 	Mongodb connected 
+2019-01-19 13:35:43 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:35:45 [info]: 	Mongodb connected 
+2019-01-19 13:36:23 [info]: 	Example app listening on port: 3000 
+2019-01-19 13:36:25 [info]: 	Mongodb connected 
